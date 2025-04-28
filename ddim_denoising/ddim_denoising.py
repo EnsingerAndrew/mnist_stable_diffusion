@@ -64,7 +64,7 @@ def count_parameters(model: nn.Module):
     return total
 
 if __name__ == "__main__":
-    model_file = "../model_testing/noise_predictor_guided.pth"
+    model_file = "noise_predictor_guided.pth"
     mym = torch.load(model_file, weights_only=False)
 
     beta_0 = 0.0001
