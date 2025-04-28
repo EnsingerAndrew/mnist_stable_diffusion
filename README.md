@@ -27,4 +27,11 @@ Results from Latent DDIM model:
 ![image](https://github.com/user-attachments/assets/60160e19-4fb4-46fc-ad7c-f2ae0b863ce7)
 
 
+Latent DDPM Generated images of fruit: 
+
+
+![generated_fruit](https://github.com/user-attachments/assets/16d84844-3a1b-4224-9be7-3b9f14ab94b0)
+
+![generated_fruit2](https://github.com/user-attachments/assets/cbdde5da-bfdb-4405-80e9-7ff24f46e22c)
+
 
