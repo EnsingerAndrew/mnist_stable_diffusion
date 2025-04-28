@@ -34,4 +34,6 @@ Latent DDPM Generated images of fruit:
 
 ![generated_fruit2](https://github.com/user-attachments/assets/cbdde5da-bfdb-4405-80e9-7ff24f46e22c)
 
+https://github.com/user-attachments/assets/ffa3c6d1-ed3a-4413-87e5-2cf73c3b248c
+
 
