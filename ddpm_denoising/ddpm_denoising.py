@@ -67,8 +67,6 @@ if __name__ == "__main__":
     model_file = "../model_testing/noise_predictor_guided.pth"
     mym = torch.load(model_file, weights_only=False)
 
-    # embedding_matrix = torch.load("../model_testing/embeddings.pth")
-
     beta_0 = 0.0001
     beta_T = 0.05
     num_steps = 256
@@ -83,12 +81,7 @@ if __name__ == "__main__":
     mym.eval()
     count_parameters(mym)
 
-    X_t = torch.randn(10,1,28,28).cuda() #xs[1111].cuda().unsqueeze(0)
-
-    Z = torch.randn_like(X_t)
-    print("norm of noise:",torch.norm(Z))
-    print("norm of image:",torch.norm(X_t))
-    print("\n\n")
+    X_t = torch.randn(10,1,28,28).cuda()
 
     T = num_steps
     storage = torch.zeros((T,28,28))
